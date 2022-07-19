@@ -26,7 +26,6 @@ class FileReader:
     def __init__(self, path):
         self.path = self.set_path(path)
 
-
     def set_path(self, path):
         try:
             open(path, 'r')
